@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Mqtt</title>
+	<style>
+		.btn-lg {
+			width: 20%;
+			margin: 20px;
+		}
+	</style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+    <div class="text-center" id="mqtt_body">
+        <h1>IOT FAN SWITCH</h1>
+	</div>
+	<br>
+	<br>
+    <div class="container">
+        <div class="row">
+            <!-- column 1 -->
+            <div class="col">
+                <div class="card">
+                    <div class="container" id="card">
+
+                        <div class="card-body" id="incard">
+                            <!--<input type="text" class="form-control" id="broker_input" value="wss://test.mosquitto.org:8081/mqtt"><br>-->
+                            <button class="btn btn-outline-danger pure-button btn-lg btn-disconnect" id="button-off">Off</button>
+                            <button id="btn-connect1" class="btn btn-lg btn-outline-success">1</button>
+                            <button id="btn-connect2" class="btn btn-lg btn-outline-success">2</button>
+                            <button id="btn-connect3" class="btn btn-lg btn-outline-success">3</button>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <script src="browserMqtt.js"></script>
+                <script src="controller.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+
+</body>
+
+</html>

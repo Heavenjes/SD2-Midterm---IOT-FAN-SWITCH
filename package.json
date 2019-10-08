@@ -1,0 +1,23 @@
+{
+  "name": "iot_switch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heavenjes/IOT_Switch.git"
+  },
+  "author": "Jess",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heavenjes/IOT_Switch/issues"
+  },
+  "homepage": "https://github.com/Heavenjes/IOT_Switch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "package.json": "^2.0.1"
+  }
+}
